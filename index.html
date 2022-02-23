@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Projeto GIT - Trabalhando com GIT - Aula 01</title>
+    </head>
 <body>
-
-</body>
+    <h1>Projeto GIT</h1>
+    <ol>
+        <li>Visão geral do GIT</li>
+            <p>Ele é um sistema do tipo VCS (Version Control System), um Sistema de Controle de Versão.</p>
+            <p>Nos auxilia de forma segura a evolução de arquivos texto, muito utilizado pelos desenvolvedores para trabalho em conjunto em um mesmo projeto.</p>
+        <li>Comandos Básicos</li>
+            <code>$ git init</code> Para iniciar um repositório na pasta atual<br />
+            <code>$ git status</code> 
+            <code>$ git config --local user.name "Seu nome aqui"</code><br />
+            <code>$ git config --local user.email "seu@email.aqui"</code><br />
+        <li>Comandos Básicos 2</li>            
+            <code>$ git remote add origin https://github.com/rodolphotelmo/gitfordummies.git</code> Vincula projeto a pasta corrente<br />
+            <code>$ git add index.html</code><br />
+            <code>$ git pull origin main</code><br />
+            <code>$ git pull</code><br />
+            <code>$ git diff</code><br />
+            <code>$ git add ARQUIVO</code><br />
+            <code>$ git push origin main</code>
+        <li>Comandos 3</li>
+            <code>$ git commit -m "Mensagem do Commit" </code><br />
+            <code>$ git log --oneline </code>
+            <code>$ git rebase -i HEAD~3</code>
+    </ol>
+</body>    
 </html>
